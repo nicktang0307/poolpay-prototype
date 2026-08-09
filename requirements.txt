@@ -1,9 +1,0 @@
-PoolPay updated prototype (Option 1 framing)
-
-Files
-- app.py: Streamlit interface
-- poolpay_backend.py: core pot, transaction, settlement, and revenue logic
-
-Run
-1. Open a terminal in this folder.
-2. Run: python -m streamlit run app.py
