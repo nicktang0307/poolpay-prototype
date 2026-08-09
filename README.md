@@ -22,7 +22,6 @@ PoolPay is a **pre-funded shared-spending prototype** for planned group expenses
 - Block new activity after pot closure
 - Calculate proportional settlement refunds
 - Reconcile refunds so the final pot balance reaches zero
-- Simulate selected revenue scenarios for demonstration purposes
 
 ## Bangkok demo validation
 
@@ -36,8 +35,6 @@ The built-in Bangkok Trip scenario uses the same figures shown in the report and
 | Refunds allocated | A$568.50 |
 | Final balance after settlement | A$0.00 |
 
-![Settlement validation](docs/settlement_validation.png)
-
 ## Repository structure
 
 ```text
@@ -47,8 +44,7 @@ poolpay-prototype/
 ├── requirements.txt          # Python dependencies
 ├── tests/
 │   └── test_backend.py       # Validation tests for key controls
-├── docs/
-│   └── settlement_validation.png
+├── .gitignore
 └── README.md
 ```
 
